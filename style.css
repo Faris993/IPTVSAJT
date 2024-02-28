@@ -13,7 +13,7 @@ body{
     overflow-x: hidden;
 }
 .main{
-    width: 100vw;
+    width: 100%;
     height:100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.566), rgba(0, 0, 0, 0.584)), url(../image/main-img.jpg);
     background-size: cover;
@@ -185,6 +185,12 @@ header{
 }
 
 
+
+
+
+
+
+
 /* start film slid */
 .film{
     transform: translateY(-80px);
@@ -213,7 +219,7 @@ header{
 }
 @media(max-width:990px){
 .film-slide img {
-    width: 100vw;
+    width: 160px;
     height: 220px;
     border-radius: 7px 0px;
 }
@@ -223,7 +229,7 @@ header{
 }
 @media(max-width:680px) {
 .film-slide img {
-    width: 100vw;
+    width: 120px;
     height: 170px;
     border-radius: 7px 0px;
 }
@@ -233,7 +239,7 @@ header{
 }
 @media(max-width:410px) {
 .film-slide img {
-    width: 100vw;
+    width: 100px;
     height: 150px;
     border-radius: 7px 0px;
     }
@@ -264,14 +270,14 @@ header{
 }
 @media(max-width:990px) {
     .channel-slid img {
-        width: 100vw;
+        width: 90px;
         height: 70px;
         margin-left: 7px;
     }
 }
 @media(max-width:410px){
     .channel-slid img {
-        width: 100vw;
+        width: 75px;
         height: 60px;
         margin-left: 5px;
     }
