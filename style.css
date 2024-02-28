@@ -213,7 +213,7 @@ header{
 }
 @media(max-width:990px){
 .film-slide img {
-    width: 160px;
+    width: 100vw;
     height: 220px;
     border-radius: 7px 0px;
 }
@@ -223,7 +223,7 @@ header{
 }
 @media(max-width:680px) {
 .film-slide img {
-    width: 120px;
+    width: 100vw;
     height: 170px;
     border-radius: 7px 0px;
 }
@@ -233,7 +233,7 @@ header{
 }
 @media(max-width:410px) {
 .film-slide img {
-    width: 100px;
+    width: 100vw;
     height: 150px;
     border-radius: 7px 0px;
     }
@@ -264,14 +264,14 @@ header{
 }
 @media(max-width:990px) {
     .channel-slid img {
-        width: 90px;
+        width: 100vw;
         height: 70px;
         margin-left: 7px;
     }
 }
 @media(max-width:410px){
     .channel-slid img {
-        width: 75px;
+        width: 100vw;
         height: 60px;
         margin-left: 5px;
     }
