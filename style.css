@@ -223,7 +223,7 @@ header{
 }
 @media(max-width:680px) {
 .film-slide img {
-    width: 100%;
+    width: 120px;
     height: 170px;
     border-radius: 7px 0px;
 }
@@ -233,7 +233,7 @@ header{
 }
 @media(max-width:410px) {
 .film-slide img {
-    width: 100%;
+    width: 100px;
     height: 150px;
     border-radius: 7px 0px;
     }
