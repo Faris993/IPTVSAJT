@@ -15,7 +15,7 @@ body{
 .main{
     width: 100%;
     height:100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.566), rgba(0, 0, 0, 0.584)), url(.../image/photo3.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.566), rgba(0, 0, 0, 0.584)), url(photo_2024-02-28_18-20-05.jpg);
     background-size: cover;
     object-fit: cover;
 }
