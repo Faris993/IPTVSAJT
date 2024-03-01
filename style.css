@@ -26,12 +26,12 @@ header{
     align-items: center;
 }
 #logo-container {
-        max-width: 200px; /* Prilagodite maksimalnu širinu prema potrebi */
+        width: 50px; /* Prilagodite maksimalnu širinu prema potrebi */
         margin: 20px; /* Prilagodite margine prema potrebi */
     }
 
     #logo-container img {
-        width: 100%;
+        width: 50%;
         height: auto;
     }
 #bar{
