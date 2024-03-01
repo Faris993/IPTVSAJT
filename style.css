@@ -31,9 +31,13 @@ header{
         margin: 20px; /* Prilagodite margine prema potrebi */
     }
 
-    #logo-container img {
-        width: 150px;
-        height: auto;
+   #logo-container img {
+    max-width: 150px; /* Prilagodite maksimalnu širinu prema želji */
+    max-height: 150px; /* Prilagodite maksimalnu visinu prema želji */
+    width: auto; /* Ovo će automatski prilagoditi širinu održavajući proporcije */
+    height: auto; /* Ovo će automatski prilagoditi visinu održavajući proporcije */
+}
+
     }
 #bar{
     display: none;
