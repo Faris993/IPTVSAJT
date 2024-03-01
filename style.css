@@ -25,15 +25,15 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.logo{
-    color:white;
-    font-family:   'Lucida Sans';
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-left: 8rem;
-    font-size: 1.8rem;
-    margin-top: 1rem;
-}
+#logo-container {
+        max-width: 200px; /* Prilagodite maksimalnu širinu prema potrebi */
+        margin: 20px; /* Prilagodite margine prema potrebi */
+    }
+
+    #logo-container img {
+        width: 100%;
+        height: auto;
+    }
 #bar{
     display: none;
 }
