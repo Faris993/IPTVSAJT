@@ -34,8 +34,6 @@ header{
    #logo-container img {
     max-width: 150px; /* Prilagodite maksimalnu širinu prema želji */
     max-height: 150px; /* Prilagodite maksimalnu visinu prema želji */
-    width: auto; /* Ovo će automatski prilagoditi širinu održavajući proporcije */
-    height: auto; /* Ovo će automatski prilagoditi visinu održavajući proporcije */
     margin: 20px;
     padding: 20px;
 }
