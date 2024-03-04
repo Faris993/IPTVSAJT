@@ -25,19 +25,15 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-#logo-container {
-        width: 100px; /* Prilagodite maksimalnu širinu prema potrebi */
-        height: auto;
-        margin-right: auto;
-    }
 
-   #logo-container img {
-    max-width: 150px; /* Prilagodite maksimalnu širinu prema želji */
-    max-height: 150px; /* Prilagodite maksimalnu visinu prema želji */
-    width: auto; /* Ovo će automatski prilagoditi širinu održavajući proporcije */
-    height: auto; /* Ovo će automatski prilagoditi visinu održavajući proporcije */
-    margin: 20px;
-    padding: 20px;
+.logo{
+    color:white;
+    font-family:   'Lucida Sans';
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 8rem;
+    font-size: 1.8rem;
+    margin-top: 1rem;
 }
 
     }
