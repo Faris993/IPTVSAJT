@@ -27,7 +27,7 @@ header{
 }
 
 .logo{
-    color:white;
+    color: transparent;
     font-family:   'Lucida Sans';
     font-weight: 600;
     letter-spacing: 1px;
