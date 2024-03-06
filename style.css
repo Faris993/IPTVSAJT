@@ -25,9 +25,8 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-
 .logo{
-    color: white;
+    color:white;
     font-family:   'Lucida Sans';
     font-weight: 600;
     letter-spacing: 1px;
@@ -35,8 +34,6 @@ header{
     font-size: 1.8rem;
     margin-top: 1rem;
 }
-
-    }
 #bar{
     display: none;
 }
@@ -187,6 +184,103 @@ header{
     }
 }
 
+
+
+
+
+
+
+
+/* start film slid */
+.film{
+    transform: translateY(-80px);
+    white-space: nowrap;
+}
+.film-slide{
+    display: inline-block;
+    animation: 34s linear infinite slide;
+}
+@keyframes slide{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+.film-slide img{
+    margin:3px;
+    width:200px;
+    height:270px;
+    border-radius: 7px 0px;
+}
+.film:hover .film-slide{
+    cursor: pointer;
+}
+@media(max-width:990px){
+.film-slide img {
+    width: 160px;
+    height: 220px;
+    border-radius: 7px 0px;
+}
+.film {
+    transform: translateY(-70px);
+}
+}
+@media(max-width:680px) {
+.film-slide img {
+    width: 120px;
+    height: 170px;
+    border-radius: 7px 0px;
+}
+         .film {
+             transform: translateY(-50px);
+         }
+}
+@media(max-width:410px) {
+.film-slide img {
+    width: 100px;
+    height: 150px;
+    border-radius: 7px 0px;
+    }
+.film {
+            transform: translateY(0px);
+}
+}
+
+.channel{
+    white-space: nowrap;
+}
+.channel-slid{
+    display: inline-block;
+    animation: channel infinite linear 40s;
+}
+@keyframes channel{
+    from{
+        transform: translateX(-55%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+.channel-slid img{
+    width:100px;
+    height:80px;
+    margin-left: 10px;
+}
+@media(max-width:990px) {
+    .channel-slid img {
+        width: 90px;
+        height: 70px;
+        margin-left: 7px;
+    }
+}
+@media(max-width:410px){
+    .channel-slid img {
+        width: 75px;
+        height: 60px;
+        margin-left: 5px;
+    }
 }
 
 .whyChose{
@@ -200,7 +294,7 @@ header{
     width:400px;
     background: rgba(32, 32, 32, 0.753);
     box-shadow: 1px 1px 1px 1px grey;
-    padding:30px;
+    padding:20px;
     text-align: center;
 }
 .card-chose .card img{
