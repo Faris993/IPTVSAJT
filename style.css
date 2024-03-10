@@ -15,7 +15,7 @@ body{
 .main{
     width: 100%;
     height:100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.566), rgba(0, 0, 0, 0.584)), url(main-img.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.566), rgba(0, 0, 0, 0.584)), url(https://idtechstore.com/cdn/shop/products/iptv-evitar-travamentos-750x420_1200x1200.jpg?v=1669660663);
     background-size: cover;
     object-fit: cover;
 }
